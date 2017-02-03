@@ -1,0 +1,220 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Segoe Ui'
+}
+body p {
+	font-size: 18px;
+}
+h1 {
+	font-weight: 300;
+	font-size: 48px;
+}
+
+.container {
+	width: auto;
+	max-width: 960px;
+	margin: 0 auto;
+	background-color: #ccc;
+}
+
+
+
+.background-1 {
+	background: radial-gradient(closest-corner circle at 70% 100%, #09c9f5, #00bbf1);
+}
+
+
+.mainblock {
+	border-top: 5px solid #eee;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.first-half {
+	float: left;
+	width: auto;
+	max-width: 50%;
+	padding-top: 10%;
+	color: white;
+}
+.second-half  {
+	float: left;
+	width: auto;
+	max-width: 50%;
+}
+
+
+
+
+/*блок с описаниями компаний*/
+
+figure {
+	float: left;
+	width: 210px;
+	margin: 10px;
+	
+}
+figcaption {
+	width: 170px;
+}
+.picture {
+	width: 180px;
+	height: 100px;
+	padding: 10px;
+	float: left;
+	border: 2px solid grey;
+	position: relative;
+	margin: 10px;
+	margin-bottom: 100px;
+}
+.picture p {
+	position: absolute;
+	top: 120px;
+	left: 0;
+}
+.picture:hover{
+ color: blue;
+ border-color: blue;
+}
+
+/*блок про Azure*/
+.one-quater {
+	width: auto;
+	max-width: 25%;
+	margin: 20px;
+
+}
+
+.three-quater {
+	width: auto;
+	max-width: 70%;
+	margin: 20px;
+	margin-top: 30px;
+	color: white;
+
+}
+.colortext {
+	color: orange;
+}
+
+
+
+.res1 {
+	float: left;
+	width: auto;
+	max-width: 56%;
+	height: 50px;
+	border: 1px solid green;
+	margin: 10px;
+	padding: 10px; 
+
+}
+.res2 {
+	float: left;
+	width: auto;
+	max-width: 35%;
+	height: 50px;
+	border: 1px solid green;
+	margin: 10px;
+	padding: 10px; 
+}
+.suka:hover {
+	border-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ul {
+list-style: none;
+}
+
+.elected li {
+float: left;
+margin: 20px;
+padding: 10px;
+background-color: ;
+text-decoration: none;
+width: 150px;
+height: 100px;
+background-color: rgba(249, 201, 16, 0.5);
+border: 1px solid grey;
+}
+
+
+
+
+
+
+.resources li {
+	float: left;
+	margin: 10px;
+	padding: 10px 20px 10px 20px;
+	border: 1px solid blue;
+}
+.one {
+	width: auto;
+	max-width: 50%
+}
+.two {
+ 	width: auto;
+	max-width: 30%
+}
+.three {
+	width: auto;
+	max-width: 25%
+} 
+.four {
+	width: auto;
+	max-width: 30%
+}
+.five {
+	width: auto;
+	max-width: 20%
+}
+
+
+.thirdBlock {
+	background-color: blue;
+	height: 150px;
+	clear: both;
+}
+
+.howTo li {
+	display: inline-block;
+}
+
